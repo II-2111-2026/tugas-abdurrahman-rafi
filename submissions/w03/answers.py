@@ -9,7 +9,7 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-from _future_ import annotations
+from __future__ import annotations
 def q01() -> bool:
     """[T/F] Dalam konfigurasi paralel, sistem akan gagal hanya jika semua komponen gagal."""
     return True
